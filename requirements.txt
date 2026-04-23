@@ -27,7 +27,7 @@ fastparquet==2024.2.0
 
 # ── Embeddings & vector store ────────────────────────────────────────
 
-sentence-transformers==2.7.0 --no-deps
+# sentence-transformers==2.7.0 --no-deps
 chromadb==0.5.3
 
 # ── Document loaders ─────────────────────────────────────────────────
