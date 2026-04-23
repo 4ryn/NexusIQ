@@ -1,0 +1,49 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Data files (large — download separately)
+data/raw/*.xlsx
+data/raw/*.csv
+data/raw/*.xls
+
+# Trained models (rebuild with python -m src.ml.train)
+data/models/
+
+# Vector index (rebuild with python -m src.rag.retriever)
+data/embeddings/
+
+# Processed data (rebuild with python -m src.pipeline.etl)
+data/processed/
+
+# Env files with secrets
+configs/.env
+.env
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
