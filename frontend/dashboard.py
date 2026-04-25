@@ -17,7 +17,7 @@ from datetime import datetime
 import requests
 import streamlit as st
 
-API = "http://localhost:8000"
+API = "https://nexusiq-72o3.onrender.com"
 
 # ── Page config ────────────────────────────────────────────────────
 st.set_page_config(
